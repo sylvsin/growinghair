@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+.manual {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 4.5rem;
+}
+
+.manual-text {
+    font-family: 'cursive';
+    font-size: calc(1.275rem + 0.3vw);
+}

@@ -1,0 +1,16 @@
+.home {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.image-item {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+}
+
+.home-image {
+    width: 200px;
+    height: 200px;
+}
