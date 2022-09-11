@@ -29,11 +29,6 @@ const Nav: React.FC = () => {
             />
           </h1>
         </Link>
-        {/* <Link to="/manual">
-          <h1>
-            <FontAwesomeIcon className="fas-solid fa-duotone" icon="users" />
-          </h1>
-        </Link> */}
       </div>
     </nav>
   );

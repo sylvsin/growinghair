@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
 .contact {
-    padding-top: 2.5rem;
+    width: 100%;
+    font-family: 'cursive';
+    font-size: 2rem;
 }
 
-.contact-title {
-    font-family: 'cursive';
-}
-
-.contact-email {
-    font-family: 'cursive';
+@media only screen and (min-width: 550px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        width: 61%;
+        font-family: 'cursive';
+        font-size: 2rem;
+    }
 }

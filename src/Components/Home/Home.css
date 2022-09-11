@@ -1,16 +1,32 @@
 .home {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    padding-top: 3rem;
 }
 
 .image-item {
     display: flex;
     flex-direction: column;
-    padding-right: 5px;
+    align-items: center;
 }
 
 .home-image {
     width: 200px;
     height: 200px;
+}
+
+@media only screen and (min-width: 550px) {
+    .home {
+        display: flex;
+        width: 58%;
+    }
+    .image-item {
+        display: flex;
+        flex-direction: column;
+        padding-right: 5px;
+    }
+    .home-image {
+        width: 200px;
+        height: 200px;
+    }
 }

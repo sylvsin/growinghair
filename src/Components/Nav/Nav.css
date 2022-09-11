@@ -3,9 +3,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    width: 500px;
-    padding-top: 10px;
+    width: 100%;
 }
 
 nav a {
@@ -15,7 +13,7 @@ nav a {
 .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 95%;
+    width: 70%;
 }
 
 .img-hair {
@@ -31,4 +29,26 @@ nav a {
 .products {
     font-family: 'cursive';
     color: #000;
+}
+
+@media only screen and (min-width: 600px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 57.5%;
+    }
+    nav a {
+        text-decoration: none;
+    }
+    .nav-links {
+        display: flex;
+        justify-content: space-around;
+        width: 95%;
+    }
+    .img-hair {
+        border-radius: 20px;
+        width: 100px;
+        height: 100px;
+    }
 }

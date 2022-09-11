@@ -1,17 +1,28 @@
 body {
+    height: 100vh;
+    width: 100vw;
     box-sizing: border-box;
-    margin: 0 auto;
 }
 
 .App {
-    text-align: center;
-    box-sizing: border-box;
-    width: 500px;
-    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
 }
 
 .content {
-    height: 100vh;
-    padding-top: 10rem;
+    /* padding-top: 10rem; */
     text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    .App {
+        text-align: center;
+        box-sizing: border-box;
+        width: 70%;
+        margin: 0 auto;
+    }
 }

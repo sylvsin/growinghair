@@ -11,12 +11,11 @@ const Manual: React.FC = () => {
 
   return (
     <div className="manual">
-      <span className="manual-text">Manual</span>
-      <span className="manual-text">
+      <h5 className="manual-text">
         Use Mimis Cream <strong>once a month after washing your hair</strong>{' '}
-        for best result. Usage should be applied to <strong>damp hair</strong>.
-      </span>
-      {/* {slug} */}
+        for best result.
+        <br /> Usage should be applied to <strong>damp hair</strong>.
+      </h5>
     </div>
   );
 };

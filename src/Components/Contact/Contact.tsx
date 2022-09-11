@@ -15,28 +15,30 @@ const Contact: React.FC = () => {
   return (
     <div className="contact">
       <h3 className="contact-title">Contact</h3>
-      <p className="contact-email">
+      <div className="contact-email">
         <FontAwesomeIcon className="faicons" icon="envelope" />
         &nbsp; 4hairbabes@gmail.com
-      </p>
-      <p>
+      </div>
+      <div>
         <FontAwesomeIcon className="faicons" icon="phone" /> +46-762 134 261
-      </p>
-      <p>
+      </div>
+      <div>
         <img src="/images/swish.jpg" alt="" /> 0762134261
-      </p>
-
-      {products.map((product) => {
-        if (product.manual) {
-          return (
-            <span key={product.slug}>
-              <Link to={`/contact/${product.slug}`}>
-                <strong>{product.manual}</strong>
-              </Link>
-            </span>
-          );
-        }
-      })}
+      </div>
+      <div>
+        {products.map((product) => {
+          if (product.manual) {
+            return (
+              <span key={product.slug}>
+                <Link to={`/contact/${product.slug}`}>
+                  <strong>{product.manual}</strong>
+                </Link>
+              </span>
+            );
+          }
+          return product.manual;
+        })}
+      </div>
     </div>
   );
 };
